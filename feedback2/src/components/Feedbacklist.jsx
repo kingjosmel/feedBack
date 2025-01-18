@@ -6,7 +6,7 @@ const Feedbacklist = ({feedback}) => {
         return <p>No Feedback yet</p>
     }
   return (
-    <div className='feedback-list'>
+    <div className='feedback-list direction'>
         {feedback.map((item) => (
             <FeedbackItem key={item.id} item={item}  />
         ))}
