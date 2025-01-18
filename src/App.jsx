@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
     <Header/>
-    <div>
+    <div className='div'>
         <Feedbacklist feedback={feedback}/>
     </div>
 
