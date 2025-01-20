@@ -15,4 +15,4 @@ const Feedbacklist = ({feedback}) => {
   )
 }
 
-export default Feedbacklist
+export default Feedbacklist;

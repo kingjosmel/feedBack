@@ -3,6 +3,7 @@ import FeedbackData from './data/FeedbackData';
 import Feedbacklist from './components/Feedbacklist';
 import Header from './components/Header';
 
+
 import './App.css'
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
     <>
     <Header/>
     <div className='div'>
-        <Feedbacklist feedback={feedback}/>
+        <Feedbacklist feedback={feedback} />
     </div>
 
     </>
